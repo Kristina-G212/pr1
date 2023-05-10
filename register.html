@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="styles/register.css">
+    <link rel="stylesheet" href="styles/header-footer.css">
+    <title>Document</title>
+</head>
+<body>
+<header class="header">
+    <div class="header_logo-name">
+        <img src="images/free-icon-car-4640496.png" alt="" class="logo">
+        <h1><a href="index.html">Индекс Драйв</a></h1>
+    </div>
+    <nav class="header_nav">
+        <ul class="header_nav-ul">
+            <li class="header_nav-ul-li"><a href="branches.html">Филиалы</a></li>
+            <li class="header_nav-ul-li"><a href="booking.html">Бронирование</a></li>
+            <li class="header_nav-ul-li"><a href="login.html">Личный кабинет</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="main">
+
+    <form class="main__form_login">
+        <div class="form_login__part">
+            <div class="form_login__label-input">
+                <input class="form_login__input" type="text" id="surname" placeholder="Фамилия">
+                <label class="form_login__label" for="surname">Введите фамилию</label>
+            </div>
+
+            <div class="form_login__label-input">
+                <input class="form_login__input" type="text" id="name" placeholder="Имя">
+                <label class="form_login__label" for="name">Введите имя</label>
+            </div>
+
+            <div class="form_login__label-input">
+                <input class="form_login__input" type="text" id="middlename" placeholder="Отчество">
+                <label class="form_login__label" for="middlename">Введите отчество</label>
+            </div>
+
+            <div class="form_login__label-input">
+                <input class="form_login__input" type="text" id="passportseries" placeholder="Серия">
+                <label class="form_login__label" for="passportseries">Введите серию паспорта</label>
+
+                <input class="form_login__input" type="text" id="passportnumber" placeholder="Номер">
+                <label class="form_login__label" for="passportnumber">Введите номер паспорта</label>
+            </div>
+
+        </div>
+
+        <div class="form_login__part">
+
+            <div class="form_login__label-input">
+                <input class="form_login__input" type="tel" id="phone" placeholder="8 800 555 3535">
+                <label class="form_login__label" for="phone">Введите телефон</label>
+            </div>
+
+            <div class="form_login__label-input">
+                <input class="form_login__input" type="date" id="date" placeholder="Дата рождения">
+                <label class="form_login__label" for="date">Введите дату рождения</label>
+            </div>
+
+            <div class="form_login__label-input">
+                <input class="form_login__input" type="password" name="passwd" id="passwd" placeholder="Пароль">
+                <label class="form_login__label" for="passwd">Введите пароль</label>
+            </div>
+
+            <div class="form_login__label-input">
+                <input class="form_login__input" type="password" name="passwd" id="repeatpasswd" placeholder="Пароль">
+                <label class="form_login__label" for="repeatpasswd">Введите пароль</label>
+            </div>
+
+            <button class="form_login__button" type="button">Регистрация</button>
+        </div>
+    </form>
+
+</main>
+
+<footer class="footer">
+    <p>Телефон 8 (800) 555-35-35</p>
+    <nav class="footer_nav">
+        <ul class="footer_nav-ul">
+            <li><a href="login.html">Вход в личный кабинет</a></li>
+            <li><a href="register.html">Регистрация в личном кабинете</a></li>
+            <li><a href="profile.html">Личный кабинет</a></li>
+            <li><a href="booking.html">Бронирование</a></li>
+        </ul>
+        <ul class="footer_nav-ul">
+            <li><a href="history.html">История бронирования</a></li>
+            <li><a href="branches.html">Филиалы</a></li>
+            <li><a href="cards.html">Банковские карты</a></li>
+            <li><a href="car-select.html">Выбор автомобиля</a></li>
+        </ul>
+    </nav>
+</footer>
+</body>
+</html>

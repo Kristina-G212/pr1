@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Индекс Драйв</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/car-select.css">
+    <link rel="stylesheet" href="styles/header-footer.css">
+    <script src="js/index.js" defer></script>
+</head>
+<body>
+<div class="section_header-trust">
+    <header class="header">
+        <div class="header_logo-name">
+            <img src="images/free-icon-car-4640496.png" alt="" class="logo">
+            <h1><a href="#">Индекс Драйв</a></h1>
+        </div>
+        <nav class="header_nav">
+            <ul class="header_nav-ul">
+                <li class="header_nav-ul-li"><a href="branches.html">Филиалы</a></li>
+                <li class="header_nav-ul-li"><a href="booking.html">Бронирование</a></li>
+                <li class="header_nav-ul-li"><a href="login.html">Личный кабинет</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="section_trust">
+        <h1 class="section_trust-h1">
+            На любой случай, любой автомобиль.
+        </h1>
+    </section>
+</div>
+
+<main>
+    <section class="section_form-search">
+        <form class="main__car-select">
+            <div class="car-select_part">
+                <label class="car-select_label" for="carClass">Класс автомобиля</label>
+                <select class="car-select_label-select" id="carClass">
+                    <option>Эконом</option>
+                    <option>Премиум</option>
+                </select>
+            </div>
+            <div class="car-select_part">
+                <label class="car-select_label" for="carMark">Марка автомобиля</label>
+                <select class="car-select_label-select" id="carMark">
+                    <option>Toyota</option>
+                    <option>Volkswagen</option>
+                    <option>Hyundai</option>
+                    <option>Mercedes</option>
+                </select>
+            </div>
+            <div class="car-select_part">
+                <label class="car-select_label" for="carModel">Модель автомобиля</label>
+                <input class="car-select_label-select" id="carModel">
+                <p class="car-select_p">Вы можете оставить поле пустым, тогда марка будет выбрана рандомно</p>
+            </div>
+            <button class="car-search__button" type="button">Поиск</button>
+        </form>
+
+    </section>
+    <section class="section_news">
+
+        <details class="det">
+            <summary>В России вынесли первый приговор за продажу аккаунтов каршеринга</summary>
+            <p class="det-p">В конце 2020 года в России вынесли первый приговор за продажу аккаунтов каршеринга. Приморский районный суд Петербурга оштрафовал гражданина РФ Романа Амелина на 50 тыс. рублей.
+                Как сообщает РАПСИ со ссылкой на Объединенную пресс-службу судов Петербурга, 21-летний молодой человек обвинялся по части 2 статьи 272 УК РФ (неправомерный доступ к компьютерной информации, совершенный из корыстной заинтересованности).</p>
+        </details>
+
+        <details class="det">
+            <summary>Программа поддержки каршеринга не заработала из-за российского телематического оборудования</summary>
+            <p class="det-p">25 августа 2020 года стало известно о том, что программа поддержки каршеринга, которая была анонсирована ещё в апреле на совещании у президента РФ Владимира Путина, так и не заработала.</p>
+        </details>
+
+        <details class="det">
+            <summary>Мошенничество с данными клиентов</summary>
+            <p class="det-p">По сообщениям на июль 2020 г каршеринг становится отличным помощником для мошенников. С помощью селфи клиентов с паспортом на людей берут кредиты в микрофинансовых компаниях.</p>
+            <p class="det-p">Также базы каршерингов используют для звонков из фальшивой службы безопасности банков - так можно узнать наличие денег на счёте, данные банковских карт.</p>
+        </details>
+
+        <details class="det">
+            <summary>Столичный каршеринг обвинил Роспотребнадзор в блокировке деятельности. Новые правила операторам объяснять не спешат</summary>
+            <p class="det-p">Каршеринг не может возобновить работу по докоронавирусному сценарию из-за отсутствия предписаний Роспотребнадзора. Представители сервисов обвинили ведомство в блокировке их деятельности и 9 июня направили коллективное обращение.</p>
+        </details>
+
+    </section>
+</main>
+<footer class="footer">
+    <p>Телефон 8 (800) 555-35-35</p>
+    <nav class="footer_nav">
+        <ul class="footer_nav-ul">
+            <li><a href="login.html">Вход в личный кабинет</a></li>
+            <li><a href="register.html">Регистрация в личном кабинете</a></li>
+            <li><a href="profile.html">Личный кабинет</a></li>
+            <li><a href="booking.html">Бронирование</a></li>
+        </ul>
+        <ul class="footer_nav-ul">
+            <li><a href="history.html">История бронирования</a></li>
+            <li><a href="branches.html">Филиалы</a></li>
+            <li><a href="cards.html">Банковские карты</a></li>
+            <li><a href="car-select.html">Выбор автомобиля</a></li>
+        </ul>
+    </nav>
+</footer>
+</body>
+</html>

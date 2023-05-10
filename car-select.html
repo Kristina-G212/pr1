@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/car-select.css">
+    <link rel="stylesheet" href="styles/header-footer.css">
+    <title>Выбор автомобиля</title>
+</head>
+<body>
+<header class="header">
+    <div class="header_logo-name">
+        <img src="images/free-icon-car-4640496.png" alt="" class="logo">
+        <h1><a href="index.html">Индекс Драйв</a></h1>
+    </div>
+    <nav class="header_nav">
+        <ul class="header_nav-ul">
+            <li class="header_nav-ul-li"><a href="branches.html">Филиалы</a></li>
+            <li class="header_nav-ul-li"><a href="booking.html">Бронирование</a></li>
+            <li class="header_nav-ul-li"><a href="login.html">Личный кабинет</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="main">
+    <form class="main__car-select">
+        <div class="car-select_part">
+            <label class="car-select_label" for="carMark">Марка автомобиля</label>
+            <select class="car-select_label-select" id="carMark">
+                <option>Toyota</option>
+                <option>Volkswagen</option>
+                <option>Hyundai</option>
+                <option>Mercedes</option>
+            </select>
+        </div>
+        <div class="car-select_part">
+            <label class="car-select_label" for="carModel">Модель автомобиля</label>
+            <input class="car-select_label-select" id="carModel">
+            <p class="car-select_p">Вы можете оставить поле пустым, тогда марка будет выбрана рандомно</p>
+        </div>
+        <div class="car-select_part">
+            <label class="car-select_label" for="carColor">Цвет автомобиля</label>
+            <select class="car-select_label-select" id="carColor">
+                <option>Желтый</option>
+                <option>Черный</option>
+                <option>Белый</option>
+            </select>
+        </div>
+        <div class="car-select_part">
+            <label class="car-select_label" for="carMotor">Тип двигателя</label>
+            <select class="car-select_label-select" id="carMotor">
+                <option>Бензиновый</option>
+                <option>Дизельный</option>
+            </select>
+        </div>
+        <div class="car-select_part">
+            <label class="car-select_label" for="carGearbox">Коробка передач</label>
+            <select class="car-select_label-select" id="carGearbox">
+                <option>МПК</option>
+                <option>АКП</option>
+            </select>
+        </div>
+            <img src="#" alt="">
+            <div class="car-select__buttons">
+                <button class="car-select__button button_no" type="button">Отмена</button>
+                <button class="car-select__button button_yes" type="button">Выбрать</button>
+            </div>
+    </form>
+</main>
+
+<footer class="footer">
+    <p>Телефон 8 (800) 555-35-35</p>
+    <nav class="footer_nav">
+        <ul class="footer_nav-ul">
+            <li><a href="login.html">Вход в личный кабинет</a></li>
+            <li><a href="register.html">Регистрация в личном кабинете</a></li>
+            <li><a href="profile.html">Личный кабинет</a></li>
+            <li><a href="booking.html">Бронирование</a></li>
+        </ul>
+        <ul class="footer_nav-ul">
+            <li><a href="history.html">История бронирования</a></li>
+            <li><a href="branches.html">Филиалы</a></li>
+            <li><a href="cards.html">Банковские карты</a></li>
+            <li><a href="car-select.html">Выбор автомобиля</a></li>
+        </ul>
+    </nav>
+</footer>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/cards.css">
+    <link rel="stylesheet" href="styles/header-footer.css">
+    <script src="js/index.js" defer type="text/javascript"></script>
+    <title>Банковские карты</title>
+</head>
+<body>
+<header class="header">
+    <div class="header_logo-name">
+        <img src="images/free-icon-car-4640496.png" alt="" class="logo">
+        <h1><a href="index.html">Индекс Драйв</a></h1>
+    </div>
+    <nav class="header_nav">
+        <ul class="header_nav-ul">
+            <li class="header_nav-ul-li"><a href="branches.html">Филиалы</a></li>
+            <li class="header_nav-ul-li"><a href="booking.html">Бронирование</a></li>
+            <li class="header_nav-ul-li"><a href="login.html">Личный кабинет</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="main">
+
+    <section class="cards">
+        <div class="card">
+            <div class="card_info">
+                <div class="card_info-number">**** **** **** 3242</div>
+                <div class="card_info-type">Мир</div>
+            </div>
+            <div class="card_activity">Активна</div>
+            <button class="button_delete-card">Удалить</button>
+        </div>
+
+        <div class="card">
+            <div class="card_info">
+                <div class="card_info-number">**** **** **** 3242</div>
+                <div class="card_info-type">Visa</div>
+            </div>
+            <div class="card_activity">Активна</div>
+            <button class="button_delete-card">Удалить</button>
+        </div>
+        <button class="button_add-card"><a href="cards.html#error">Добавить</a></button>
+    </section>
+
+    <div id="error" class="modalbackground">
+        <div class="modalwindow">
+            <div class="card_info">
+                <div class="card_info-number">**** **** **** 3242</div>
+                <div class="card_info-type">Ivan Ivanov</div>
+                <div class="card_info-type">До 04.26</div>
+                <div class="card_info-type">CVV/CVC 321</div>
+            </div>
+            <button class="button_add-card"><a href=" ">Добавить</a></button>
+        </div>
+    </div>
+
+</main>
+
+<footer class="footer">
+    <p>Телефон 8 (800) 555-35-35</p>
+    <nav class="footer_nav">
+        <ul class="footer_nav-ul">
+            <li><a href="login.html">Вход в личный кабинет</a></li>
+            <li><a href="register.html">Регистрация в личном кабинете</a></li>
+            <li><a href="profile.html">Личный кабинет</a></li>
+            <li><a href="booking.html">Бронирование</a></li>
+        </ul>
+        <ul class="footer_nav-ul">
+            <li><a href="history.html">История бронирования</a></li>
+            <li><a href="branches.html">Филиалы</a></li>
+            <li><a href="cards.html">Банковские карты</a></li>
+            <li><a href="car-select.html">Выбор автомобиля</a></li>
+        </ul>
+    </nav>
+</footer>
+</body>
+</html>

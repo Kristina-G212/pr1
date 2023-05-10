@@ -1,0 +1,30 @@
+
+.main {
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.main__client_data, .main__car_booking {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #dcdcdc;
+    box-shadow: -7px 12px 10px 1px gray;
+    padding: 40px;
+}
+
+.client_data-data {
+    display: flex;
+    flex-direction: column;
+}
+
+.client_data-info {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 190%;
+}
+
+.client_data-small-info {
+    font-size: 12px;
+}
